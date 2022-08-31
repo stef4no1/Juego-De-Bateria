@@ -27,11 +27,11 @@ function makeSound(key) {
             tom2.play();
             break;
         case "s":
-            var tom3 = new Audio('assets/sounds/tom-3.mp3');
+            let tom3 = new Audio('assets/sounds/tom-3.mp3');
             tom3.play();
             break;
         case "d":
-            var tom4 = new Audio('assets/sounds/tom-4.mp3');
+            let tom4 = new Audio('assets/sounds/tom-4.mp3');
             tom4.play();
             break;
         case "j":
@@ -39,11 +39,11 @@ function makeSound(key) {
             snare.play();
             break;
         case "k":
-            var crash = new Audio('assets/sounds/crash.mp3');
+            let crash = new Audio('assets/sounds/crash.mp3');
             crash.play();
             break;
         case "l":
-            var kick = new Audio('assets/sounds/kick-bass.mp3');
+            let kick = new Audio('assets/sounds/kick-bass.mp3');
             kick.play();
             break;
         default: console.log(key);
